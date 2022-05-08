@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31512.422
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiMultipleUploadDb", "ApiMultipleUploadDb\ApiMultipleUploadDb.csproj", "{6A016225-DF97-4A4C-B1B3-71E98C03AC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMazeAngular", "CodeMazeAngular\CodeMazeAngular.csproj", "{4706339A-F2B0-48F8-B806-7B3BD22480A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A016225-DF97-4A4C-B1B3-71E98C03AC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A016225-DF97-4A4C-B1B3-71E98C03AC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A016225-DF97-4A4C-B1B3-71E98C03AC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A016225-DF97-4A4C-B1B3-71E98C03AC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4706339A-F2B0-48F8-B806-7B3BD22480A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4706339A-F2B0-48F8-B806-7B3BD22480A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4706339A-F2B0-48F8-B806-7B3BD22480A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4706339A-F2B0-48F8-B806-7B3BD22480A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9FF197B-A295-4B98-B6BA-A454B4314AC5}
+	EndGlobalSection
+EndGlobal

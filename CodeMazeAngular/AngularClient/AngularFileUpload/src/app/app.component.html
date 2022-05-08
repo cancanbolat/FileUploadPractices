@@ -1,0 +1,11 @@
+<app-upload></app-upload>
+<br />
+<hr />
+<br />
+<div class="photos" *ngIf="photos.length > 0">
+  <h2>Available photos</h2>
+  <div *ngFor="let photo of photos" class="photo">
+    <img [src]="createImgPath(photo)" style="width:60px; height:60px;">
+    <app-download [fileUrl]="photo"></app-download>
+  </div>
+</div>
